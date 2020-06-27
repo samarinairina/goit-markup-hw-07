@@ -2,37 +2,40 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="" />
+    <meta name="description" content="Страница Web Studio с портфолио" />
     <title>WEB STUDIO</title>
   </head>
 
   <body>
     <header>
+      <!--навигация сайта WEB STUDIO-->
       <nav>
+        <a href="" aria-label="Web Studio" lang="en"> Web Studio</a>
         <ul>
-          <li><a href="">Web Studio</a></li>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="" aria-label="Студия">Студия</a></li>
+          <li><a href="" aria-label="Портфолио">Портфолио</a></li>
+          <li><a href="" aria-label="Контакты">Контакты</a></li>
         </ul>
       </nav>
       <ul>
-        <li>info@devstudio.com</li>
-        <li>+380961111111</li>
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111">+380961111111</a></li>
       </ul>
     </header>
 
     <main>
+      <!--секция заказа услуги-->
       <section>
         <h1>Эффективные решения для вашего бизнеса</h1>
         <button>Заказать услугу</button>
       </section>
 
+      <!--секция преимущества компании-->
       <section>
-        <h2>Перечень преимуществ</h2>
+        <h2 hidden="tru">Преимущества компании</h2>
         <ul>
           <li>
-            <img src="/img/main/antenna 1.svg" alt="антена" />
+            <img src="./img/main/antenna1.svg" alt="антена" />
             <h3>Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
@@ -40,7 +43,7 @@
             </p>
           </li>
           <li>
-            <img src="/img/main/clock 1.svg" alt="часы" />
+            <img src="./img/main/clock1.svg" alt="часы" />
             <h3>Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
@@ -49,7 +52,7 @@
           </li>
 
           <li>
-            <img src="/img/main/diagram 1.svg" alt="диаграмма" />
+            <img src="./img/main/diagram1.svg" alt="диаграмма" />
             <h3>Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
@@ -58,7 +61,7 @@
           </li>
 
           <li>
-            <img src="/img/main/astronaut 1.svg" alt="астронафт" />
+            <img src="./img/main/astronaut1.svg" alt="астронафт" />
             <h3>Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
@@ -68,171 +71,255 @@
         </ul>
       </section>
 
+      <!--секция перечень занятий-->
       <section>
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li>
-            <img src="/img/main/ноутбук.jpg" alt="ноутбук" />
+            <img src="./img/main/ноутбук.jpg" alt="ноутбук" />
             <h3>Десктопные приложения</h3>
           </li>
           <li>
             <img
-              src="/img/main/мобильный телефон.jpg"
+              src="./img/main/мобильный_телефон.jpg"
               alt="мобильный телефон"
             />
             <h3>Мобильные приложения</h3>
           </li>
 
           <li>
-            <img src="/img/main/дизайн макет.jpg" alt="макет дизайна" />
+            <img src="./img/main/дизайн_макет.jpg" alt="макет дизайна" />
             <h3>Дизайнерские решения</h3>
           </li>
         </ul>
       </section>
+
+      <!--cекция список членов команды-->
       <section>
         <h2>Наша команда</h2>
         <ul>
           <li>
-            <img src="/img/main/Николай Кучеренко.jpg" alt="фотография" />
+            <img
+              src="./img/main/НиколайКучеренко.jpg"
+              alt="фотография члена команды"
+            />
             <h3>Николай Кучеренко</h3>
-            <p>Product Designer</p>
-            <li>
-              <a href="" target="_blanc" rel="">Инстаграм</a>
-            </li>
-            <li>
-              <a href="" target="_blanc" rel="">Твитер</a>
-            </li>
-            <li>
-              <a href="" target="_blanc" rel="">Фейсбук</a>
-            </li>
-            <li>
-              <a href="" target="_blanc" rel="">in</a>
-            </li>
+            <p lang="en">Product Designer</p>
+            <ul>
+              <li>
+                <a href="" aria-label="Инстаграм" target="blanc" rel=""
+                  >Инстаграм</a
+                >
+              </li>
+              <li>
+                <a href="" aria-label="Твитер" target="blanc" rel="">Твитер</a>
+              </li>
+              <li>
+                <a href="" aria-label="Фейсбук" target="blanc" rel=""
+                  >Фейсбук</a
+                >
+              </li>
+              <li>
+                <a href="" aria-label="Линкедин" target="blanc" rel=""
+                  >Линкедин</a
+                >
+              </li>
+            </ul>
           </li>
 
           <li>
-            <img src="/img/main/Ольга Иванова.jpg" alt="фотография" />
+            <img
+              src="./img/main/ОльгаИванова.jpg"
+              alt="фотография члена команды"
+            />
             <h3>Ольга Иванова</h3>
-            <p>Frontend Developer</p>
+            <p lang="en">Frontend Developer</p>
 
-            <li>
-              <a href="" target="_blanc" rel="">Инстаграм</a>
-            </li>
-            <li>
-              <a href="" target="_blanc" rel="">Твитер</a>
-            </li>
-            <li>
-              <a href="" target="_blanc" rel="">Фейсбук</a>
-            </li>
-            <li>
-              <a href="" target="_blanc" rel="">in</a>
-            </li>
+            <ul>
+              <li>
+                <a href="" aria-label="Инстаграм" target="blanc" rel=""
+                  >Инстаграм</a
+                >
+              </li>
+              <li>
+                <a href="" aria-label="Твитер" target="blanc" rel="">Твитер</a>
+              </li>
+              <li>
+                <a href="" aria-label="Фейсбук" target="blanc" rel=""
+                  >Фейсбук</a
+                >
+              </li>
+              <li>
+                <a href="" aria-label="Линкедин" target="blanc" rel=""
+                  >Линкедин</a
+                >
+              </li>
+            </ul>
           </li>
 
           <li>
-            <img src="/img/main/Андрей Шевченко.jpg" alt="фотография" />
+            <img
+              src=".img/main/АндрейШевченко.jpg"
+              alt="фотография члена команды"
+            />
             <h3>Андрей Шевченко</h3>
             <p>Marketing</p>
 
-            <li>
-              <a href="" target="_blanc" rel="">Инстаграм</a>
-            </li>
-            <li>
-              <a href="" target="_blanc" rel="">Твитер</a>
-            </li>
-            <li>
-              <a href="" target="_blanc" rel="">Фейсбук</a>
-            </li>
-            <li>
-              <a href="" target="_blanc" rel="">in</a>
-            </li>
+            <ul>
+              <li>
+                <a href="" aria-label="Инстаграм" target="blanc" rel=""
+                  >Инстаграм</a
+                >
+              </li>
+              <li>
+                <a href="" aria-label="Твитер" target="blanc" rel="">Твитер</a>
+              </li>
+              <li>
+                <a href="" aria-label="Фейсбук" target="blanc" rel=""
+                  >Фейсбук</a
+                >
+              </li>
+              <li>
+                <a href="" aria-label="Линкедин" target="blanc" rel=""
+                  >Линкедин</a
+                >
+              </li>
+            </ul>
           </li>
 
           <li>
-            <img src="/img/main/Иван Николаев.jpg" alt="фотография" />
+            <img
+              src="./img/main/ИванНиколаев.jpg"
+              alt="фотография члена команды"
+            />
             <h3>Иван Николаев</h3>
-            <p>UI Designer</p>
+            <p lang="en">UI Designer</p>
 
-            <li>
-              <a href="" target="_blanc" rel="">Инстаграм</a>
-            </li>
-            <li>
-              <a href="" target="_blanc" rel="">Твитер</a>
-            </li>
-            <li>
-              <a href="" target="_blanc" rel="">Фейсбук</a>
-            </li>
-            <li>
-              <a href="" target="_blanc" rel="">in</a>
-            </li>
+            <ul>
+              <li>
+                <a href="" aria-label="Инстаграм" target="blanc" rel=""
+                  >Инстаграм</a
+                >
+              </li>
+              <li>
+                <a href="" aria-label="Твитер" target="blanc" rel="">Твитер</a>
+              </li>
+              <li>
+                <a href="" aria-label="Фейсбук" target="blanc" rel=""
+                  >Фейсбук</a
+                >
+              </li>
+              <li>
+                <a href="" aria-label="Линкедин" target="blanc" rel=""
+                  >Линкедин</a
+                >
+              </li>
+            </ul>
           </li>
         </ul>
       </section>
 
-      <section> 
+      <!--перечень постоянных клиентов-->
+      <section>
         <h2>Постоянные клиенты</h2>
         <ul>
           <li>
-            <a href="" target="" rel=""><img src="/img/main/logo 1.svg" width="45" height="50" alt="лого"></a>
+            <a href="" target="blanc" rel=""
+              ><img
+                src="./img/main/logo1.svg"
+                width="45"
+                height="50"
+                alt="клиент1"
+            /></a>
           </li>
           <li>
-            <a href="" target="" rel=""><img src="/img/main/logo 2.svg" width="45" height="50" alt="лого"></a>
+            <a href="" target="blanc" rel=""
+              ><img
+                src="./img/main/logo2.svg"
+                width="45"
+                height="50"
+                alt="клиент2"
+            /></a>
           </li>
           <li>
-            <a href="" target="" rel=""><img src="/img/main/logo 3.svg" width="45" height="50" alt="лого"></a>
+            <a href="" target="blanc" rel=""
+              ><img
+                src="./img/main/logo3.svg"
+                width="45"
+                height="50"
+                alt="клиент3"
+            /></a>
           </li>
           <li>
-            <a href="" target="" rel=""><img src="/img/main/logo 4.svg" width="45" height="50" alt="лого"></a>
+            <a href="" target="blanc" rel=""
+              ><img
+                src="./img/main/logo4.svg"
+                width="45"
+                height="50"
+                alt="клиент4"
+            /></a>
           </li>
           <li>
-            <a href="" target="" rel=""><img src="/img/main/logo 5.svg" width="45" height="50" alt="лого"></a>
+            <a href="" target="blanc" rel=""
+              ><img
+                src="/img/main/logo5.svg"
+                width="45"
+                height="50"
+                alt="клиент5"
+            /></a>
           </li>
           <li>
-            <a href="" target="" rel=""><img src="/img/main/logo 6.svg" width="45" height="50" alt="лого"></a>
+            <a href="" target="blanc" rel=""
+              ><img
+                src="/img/main/logo6.svg"
+                width="45"
+                height="50"
+                alt="клиент6"
+            /></a>
           </li>
         </ul>
       </section>
-
     </main>
 
     <footer>
       <div>
         <ul>
           <li>
-          <a href="" >Web Studio</a>
-            </li>
-            <li>
-              <a href="">г. Киев, пр-т Леси Украинки, 26</a>
-            </li>
-            <li>
-              <a href="">info@example.com</a>
-            </li>   
-            <li>
-              <a href="">+380991111111</a>
-            </li>           
-          </ul>
-        </div>
+            <a href="" lang="en">Web Studio</a>
+          </li>
+          <li>
+            <a href="">г. Киев, пр-т Леси Украинки, 26</a>
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com">info@example.com</a>
+          </li>
+          <li>
+            <a href="tel:+380991111111">+380991111111</a>
+          </li>
+        </ul>
+      </div>
+
+      <!--cписок ссылок на социальные сети-->
 
       <div>
         <h3>присоединяйтесь</h3>
         <ul>
           <li>
-          <a href="" target="_blanc" rel="">Инстаграм</a>
+            <a href="" aria-label="Инстаграм" target="blanc" rel=""
+              >Инстаграм</a
+            >
           </li>
           <li>
-          <a href="" target="_blanc" rel="">Твитер</a>
+            <a href="" aria-label="Твитер" target="blanc" rel="">Твитер</a>
           </li>
           <li>
-          <a href="" target="_blanc" rel="">Фейсбук</a>
+            <a href="" aria-label="Фейсбук" target="blanc" rel="">Фейсбук</a>
           </li>
           <li>
-          <a href="" target="_blanc" rel="">in</a>
-          </li>   
+            <a href="" aria-label="Линкедин" target="blanc" rel="">Линкедин</a>
+          </li>
         </ul>
-
       </div>
-
-
     </footer>
   </body>
 </html>
