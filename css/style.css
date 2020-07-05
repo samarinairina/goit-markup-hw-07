@@ -2,11 +2,12 @@
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  cursor: none;
   text-decoration: none;
 }
 
 .body {
+  font-family: Roboto;
+  font-style: normal;
 }
 .header {
 }
@@ -15,14 +16,14 @@ ul {
   list-style: none;
 }
 .navigation {
-}
-
-.navigation-logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+}
+
+.navigation-logo {
   letter-spacing: 0.03em;
   width: 153px;
   height: 31px;
@@ -37,24 +38,14 @@ ul {
   color: #ffffff;
 }
 .link {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
   color: #212121;
 }
 .link:hover,
-:active,
 :focus {
   color: #2196f3;
 }
 
 .list {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -65,7 +56,6 @@ ul {
   background: #f5f4fa;
 }
 .text-hero {
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
@@ -91,8 +81,6 @@ ul {
 }
 
 .headline {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -101,8 +89,6 @@ ul {
   color: #212121;
 }
 .lead {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -111,8 +97,6 @@ ul {
   color: #757575;
 }
 .subject {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -139,8 +123,6 @@ ul {
   background: #ffffff;
 }
 .list-team {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -150,8 +132,6 @@ ul {
   color: #212121;
 }
 .list-team-text {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -177,8 +157,6 @@ ul {
   color: #ffffff;
 }
 .contacts-footer {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -187,8 +165,6 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-social-link {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -197,8 +173,6 @@ ul {
   color: #ffffff;
 }
 .button-galery {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -209,24 +183,19 @@ ul {
   color: #212121;
 }
 .adress:hover,
-:active,
 :focus {
   color: #2196f3;
 }
 .contacts-footer:hover,
-:active,
 :focus {
   color: #2196f3;
 }
 .button-galery:hover,
-:active,
 :focus {
   background: #2196f3;
   color: #ffffff;
 }
 .subject-galery {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
@@ -235,8 +204,6 @@ ul {
   color: #212121;
 }
 .galery-text {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
@@ -245,8 +212,6 @@ ul {
   color: #757575;
 }
 .galery-aside {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
