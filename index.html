@@ -13,9 +13,9 @@
   </head>
 
   <body class="body">
-    <header class="header">
+    <header class="header container-header">
       <!--навигация сайта WEB STUDIO-->
-      <nav class="navigation">
+      <nav class="navigation container-nav">
         <a
           class="navigation-logo"
           href="./index.html"
@@ -23,28 +23,34 @@
           lang="en"
           ><span class="navigation-logo-text">Web</span> Studio</a
         >
-        <ul class="list">
-          <li class="list-item">
+        <ul class="list container-menu">
+          <li class="list-item studio list-item-menu">
             <a class="link" href="./index.html" aria-label="Студия">Студия</a>
           </li>
-          <li class="list-item">
+          <li class="list-item portfolio list-item-menu">
             <a class="link" href="./portfolio.html" aria-label="Портфолио"
               >Портфолио</a
             >
           </li>
-          <li class="list-item">
+          <li class="list-item contact list-item-menu">
             <a class="link" href="" aria-label="Контакты">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul class="list">
-        <li class="list-item">
-          <a class="link" href="mailto:info@devstudio.com"
+      <ul class="list conteiner-contact">
+        <li class="list-item container-image">
+          <img class="image-meil" src="./img/main/imeil.svg" />
+          <a class="link-contact" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
-        <li class="list-item">
-          <a class="link" href="tel:+380961111111">+380961111111</a>
+        <li class="list-item container-image">
+          <img
+            class="image-contact"
+            src="/img/main/telefone.svg"
+            alt="телефон"
+          />
+          <a class="link-contact" href="tel:+380961111111">+380961111111</a>
         </li>
       </ul>
     </header>
@@ -59,17 +65,21 @@
       <!--секция преимущества компании-->
       <section>
         <h2 hidden>Преимущества компании</h2>
-        <ul>
-          <li>
-            <img class="image" src="./img/main/antenna1.svg" alt="антена" />
+        <ul class="conteiner-me">
+          <li class="image-width">
+            <div class="image-me">
+              <img class="image" src="./img/main/antenna1.svg" alt="антена" />
+            </div>
             <h3 class="headline">Внимание к деталям</h3>
             <p class="lead">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
-            <img class="image" src="./img/main/clock1.svg" alt="часы" />
+          <li class="image-width">
+            <div class="image-me">
+              <img class="image" src="./img/main/clock1.svg" alt="часы" />
+            </div>
             <h3 class="headline">Пунктуальность</h3>
             <p class="lead">
               Задача организации, в особенности же рамки и место обучения кадров
@@ -77,8 +87,14 @@
             </p>
           </li>
 
-          <li>
-            <img class="image" src="./img/main/diagram1.svg" alt="диаграмма" />
+          <li class="image-width">
+            <div class="image-me">
+              <img
+                class="image"
+                src="./img/main/diagram1.svg"
+                alt="диаграмма"
+              />
+            </div>
             <h3 class="headline">Планирование</h3>
             <p class="lead">
               Равным образом консультация с широким активом в значительной
@@ -86,12 +102,14 @@
             </p>
           </li>
 
-          <li>
-            <img
-              class="image"
-              src="./img/main/astronaut1.svg"
-              alt="астронафт"
-            />
+          <li class="image-width">
+            <div class="image-me">
+              <img
+                class="image"
+                src="./img/main/astronaut1.svg"
+                alt="астронафт"
+              />
+            </div>
             <h3 class="headline">Современные технологии</h3>
             <p class="lead">
               Значимость этих проблем настолько очевидна, что реализация
@@ -104,12 +122,12 @@
       <!--секция перечень занятий-->
       <section>
         <h2 class="subject">Чем мы занимаемся</h2>
-        <ul>
-          <li>
+        <ul class="conteiner-subject">
+          <li class="subject-item">
             <img src="./img/main/ноутбук.jpg" alt="ноутбук" />
             <h3 class="caption">Десктопные приложения</h3>
           </li>
-          <li>
+          <li class="subject-item">
             <img
               src="./img/main/мобильный_телефон.jpg"
               alt="мобильный телефон"
@@ -117,7 +135,7 @@
             <h3 class="caption">Мобильные приложения</h3>
           </li>
 
-          <li>
+          <li class="subject-item">
             <img src="./img/main/дизайн_макет.jpg" alt="макет дизайна" />
             <h3 class="caption">Дизайнерские решения</h3>
           </li>
@@ -127,7 +145,7 @@
       <!--cекция список членов команды-->
       <section class="team">
         <h2 class="subject">Наша команда</h2>
-        <ul>
+        <ul class="conteiner-subject">
           <li class="team-card">
             <img
               src="./img/main/НиколайКучеренко.jpg"
@@ -135,24 +153,38 @@
             />
             <h3 class="list-team">Николай Кучеренко</h3>
             <p class="list-team-text" lang="en">Product Designer</p>
-            <ul class="social-link">
-              <li>
-                <a href="" aria-label="Инстаграм" target="blanc" rel=""
-                  >Инстаграм</a
-                >
+            <ul class="social-link-container">
+              <li class="social-link">
+                <a href="" aria-label="Инстаграм" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/instagramteam.svg"
+                    alt="Инстаграм"
+                  />
+                </a>
               </li>
-              <li>
-                <a href="" aria-label="Твитер" target="blanc" rel="">Твитер</a>
+              <li class="social-link">
+                <a href="" aria-label="Твитер" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/twitterteam.svg"
+                    alt="Твитер"
+                  />
+                </a>
               </li>
-              <li>
-                <a href="" aria-label="Фейсбук" target="blanc" rel=""
-                  >Фейсбук</a
-                >
+              <li class="social-link">
+                <a href="" aria-label="Фейсбук" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/facebookteam.svg"
+                    alt="Фейсбук"
+                  />
+                </a>
               </li>
-              <li>
-                <a href="" aria-label="Линкедин" target="blanc" rel=""
-                  >Линкедин</a
-                >
+              <li class="social-link">
+                <a href="" aria-label="Линкедин" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/linkedinteam.svg"
+                    alt="Линкедин"
+                  />
+                </a>
               </li>
             </ul>
           </li>
@@ -165,24 +197,38 @@
             <h3 class="list-team">Ольга Иванова</h3>
             <p class="list-team-text" lang="en">Frontend Developer</p>
 
-            <ul>
-              <li>
-                <a href="" aria-label="Инстаграм" target="blanc" rel=""
-                  >Инстаграм</a
-                >
+            <ul class="social-link-container">
+              <li class="social-link">
+                <a href="" aria-label="Инстаграм" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/instagramteam.svg"
+                    alt="Инстаграм"
+                  />
+                </a>
               </li>
-              <li>
-                <a href="" aria-label="Твитер" target="blanc" rel="">Твитер</a>
+              <li class="social-link">
+                <a href="" aria-label="Твитер" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/twitterteam.svg"
+                    alt="Твитер"
+                  />
+                </a>
               </li>
-              <li>
-                <a href="" aria-label="Фейсбук" target="blanc" rel=""
-                  >Фейсбук</a
-                >
+              <li class="social-link">
+                <a href="" aria-label="Фейсбук" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/facebookteam.svg"
+                    alt="Фейсбук"
+                  />
+                </a>
               </li>
-              <li>
-                <a href="" aria-label="Линкедин" target="blanc" rel=""
-                  >Линкедин</a
-                >
+              <li class="social-link">
+                <a href="" aria-label="Линкедин" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/linkedinteam.svg"
+                    alt="Линкедин"
+                  />
+                </a>
               </li>
             </ul>
           </li>
@@ -195,24 +241,38 @@
             <h3 class="list-team">Андрей Шевченко</h3>
             <p class="list-team-text">Marketing</p>
 
-            <ul>
-              <li>
-                <a href="" aria-label="Инстаграм" target="blanc" rel=""
-                  >Инстаграм</a
-                >
+            <ul class="social-link-container">
+              <li class="social-link">
+                <a href="" aria-label="Инстаграм" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/instagramteam.svg"
+                    alt="Инстаграм"
+                  />
+                </a>
               </li>
-              <li>
-                <a href="" aria-label="Твитер" target="blanc" rel="">Твитер</a>
+              <li class="social-link">
+                <a href="" aria-label="Твитер" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/twitterteam.svg"
+                    alt="Твитер"
+                  />
+                </a>
               </li>
-              <li>
-                <a href="" aria-label="Фейсбук" target="blanc" rel=""
-                  >Фейсбук</a
-                >
+              <li class="social-link">
+                <a href="" aria-label="Фейсбук" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/facebookteam.svg"
+                    alt="Фейсбук"
+                  />
+                </a>
               </li>
-              <li>
-                <a href="" aria-label="Линкедин" target="blanc" rel=""
-                  >Линкедин</a
-                >
+              <li class="social-link">
+                <a href="" aria-label="Линкедин" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/linkedinteam.svg"
+                    alt="Линкедин"
+                  />
+                </a>
               </li>
             </ul>
           </li>
@@ -225,24 +285,38 @@
             <h3 class="list-team">Иван Николаев</h3>
             <p class="list-team-text" lang="en">UI Designer</p>
 
-            <ul>
-              <li>
-                <a href="" aria-label="Инстаграм" target="blanc" rel=""
-                  >Инстаграм</a
-                >
+            <ul class="social-link-container">
+              <li class="social-link">
+                <a href="" aria-label="Инстаграм" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/instagramteam.svg"
+                    alt="Инстаграм"
+                  />
+                </a>
               </li>
-              <li>
-                <a href="" aria-label="Твитер" target="blanc" rel="">Твитер</a>
+              <li class="social-link">
+                <a href="" aria-label="Твитер" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/twitterteam.svg"
+                    alt="Твитер"
+                  />
+                </a>
               </li>
-              <li>
-                <a href="" aria-label="Фейсбук" target="blanc" rel=""
-                  >Фейсбук</a
-                >
+              <li class="social-link">
+                <a href="" aria-label="Фейсбук" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/facebookteam.svg"
+                    alt="Фейсбук"
+                  />
+                </a>
               </li>
-              <li>
-                <a href="" aria-label="Линкедин" target="blanc" rel=""
-                  >Линкедин</a
-                >
+              <li class="social-link">
+                <a href="" aria-label="Линкедин" target="blanc" rel="">
+                  <img
+                    src="./img/main/social_link/linkedinteam.svg"
+                    alt="Линкедин"
+                  />
+                </a>
               </li>
             </ul>
           </li>
@@ -252,8 +326,8 @@
       <!--перечень постоянных клиентов-->
       <section>
         <h2 class="subject">Постоянные клиенты</h2>
-        <ul>
-          <li>
+        <ul class="conteiner-subject">
+          <li class="subject-item item-client-width">
             <a href="" target="blanc" rel=""
               ><img
                 src="./img/main/logo1.svg"
@@ -262,7 +336,7 @@
                 alt="клиент1"
             /></a>
           </li>
-          <li>
+          <li class="subject-item item-client-width">
             <a href="" target="blanc" rel="">
               <img
                 src="./img/main/logo2.svg"
@@ -271,7 +345,7 @@
                 alt="клиент2"
             /></a>
           </li>
-          <li>
+          <li class="subject-item item-client-width">
             <a href="" target="blanc" rel=""
               ><img
                 src="./img/main/logo3.svg"
@@ -280,7 +354,7 @@
                 alt="клиент3"
             /></a>
           </li>
-          <li>
+          <li class="subject-item item-client-width">
             <a href="" target="blanc" rel=""
               ><img
                 src="./img/main/logo4.svg"
@@ -289,7 +363,7 @@
                 alt="клиент4"
             /></a>
           </li>
-          <li>
+          <li class="subject-item item-client-width">
             <a href="" target="blanc" rel=""
               ><img
                 src="./img/main/logo5.svg"
@@ -298,7 +372,7 @@
                 alt="клиент5"
             /></a>
           </li>
-          <li>
+          <li class="subject-item item-client-width">
             <a href="" target="blanc" rel=""
               ><img
                 src="./img/main/logo6.svg"
@@ -311,10 +385,10 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer footer-conteiner">
       <div>
-        <ul>
-          <li>
+        <ul class="footer-logo">
+          <li class="nav-text">
             <a class="navigation-logo" href="./index.html" lang="en"
               ><span class="navigation-logo-text">Web</span>
               <span class="navigation-logo-footer"> Studio</span></a
@@ -342,22 +416,28 @@
 
       <!--cписок ссылок на социальные сети-->
 
-      <div>
-        <h3 class="footer-social-link">присоединяйтесь</h3>
-        <ul>
-          <li>
-            <a href="" aria-label="Инстаграм" target="blanc" rel=""
-              >Инстаграм</a
-            >
+      <div class="footer-button">
+        <h3 class="footer-title-link">присоединяйтесь</h3>
+        <ul class="footer-conteiner">
+          <li class="social-link">
+            <a href="" aria-label="Инстаграм" target="blanc" rel="">
+              <img src="./img/main/instagram2.svg" alt="Инстаграм" />
+            </a>
           </li>
-          <li>
-            <a href="" aria-label="Твитер" target="blanc" rel="">Твитер</a>
+          <li class="social-link">
+            <a href="" aria-label="Твитер" target="blanc" rel="">
+              <img src="./img/main/twitter1.svg" alt="Твитер" />
+            </a>
           </li>
-          <li>
-            <a href="" aria-label="Фейсбук" target="blanc" rel="">Фейсбук</a>
+          <li class="social-link">
+            <a href="" aria-label="Фейсбук" target="blanc" rel="">
+              <img src="./img/main/facebook1.svg" alt="Фейсбук" />
+            </a>
           </li>
-          <li>
-            <a href="" aria-label="Линкедин" target="blanc" rel="">Линкедин</a>
+          <li class="social-link">
+            <a href="" aria-label="Линкедин" target="blanc" rel="">
+              <img src="./img/main/linkedin1.svg" alt="Линкедин" />
+            </a>
           </li>
         </ul>
       </div>
