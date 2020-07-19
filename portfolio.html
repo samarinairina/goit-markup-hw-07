@@ -13,9 +13,9 @@
   </head>
 
   <body class="body">
-    <header class="header">
+    <header class="header container-header">
       <!--навигация сайта WEB STUDIO-->
-      <nav class="navigation">
+      <nav class="navigation container-nav">
         <a
           class="navigation-logo"
           href="./index.html"
@@ -23,28 +23,34 @@
           lang="en"
           ><span class="navigation-logo-text">Web</span> Studio</a
         >
-        <ul class="list">
-          <li class="list-item">
-            <a class="link" href="./index.html">Студия</a>
+        <ul class="list container-menu">
+          <li class="list-item studio list-item-menu">
+            <a class="link" href="./index.html" aria-label="Студия">Студия</a>
           </li>
-          <li class="list-item">
+          <li class="list-item portfolio list-item-menu">
             <a class="link" href="./portfolio.html" aria-label="Портфолио"
               >Портфолио</a
             >
           </li>
-          <li class="list-item">
+          <li class="list-item contact list-item-menu">
             <a class="link" href="" aria-label="Контакты">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul class="list">
-        <li class="list-item">
-          <a class="link" href="mailto:info@devstudio.com"
+      <ul class="list conteiner-contact">
+        <li class="list-item container-image">
+          <img class="image-meil" src="./img/main/imeil.svg" />
+          <a class="link-contact" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
-        <li class="list-item">
-          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="list-item container-image">
+          <img
+            class="image-contact"
+            src="./img/main/telefone.svg"
+            alt="телефон"
+          />
+          <a class="link-contact" href="tel:+380961111111">+380961111111</a>
         </li>
       </ul>
     </header>
@@ -137,10 +143,10 @@
       </ul>
     </main>
 
-    <footer class="footer">
+    <footer class="footer footer-conteiner">
       <div>
-        <ul>
-          <li>
+        <ul class="footer-logo">
+          <li class="nav-text">
             <a class="navigation-logo" href="./index.html" lang="en"
               ><span class="navigation-logo-text">Web</span>
               <span class="navigation-logo-footer"> Studio</span></a
@@ -168,22 +174,28 @@
 
       <!--cписок ссылок на социальные сети-->
 
-      <div>
-        <h3 class="footer-social-link">присоединяйтесь</h3>
-        <ul>
-          <li>
-            <a href="" aria-label="Инстаграм" target="blanc" rel=""
-              >Инстаграм</a
-            >
+      <div class="footer-button">
+        <h3 class="footer-title-link">присоединяйтесь</h3>
+        <ul class="footer-conteiner">
+          <li class="social-link">
+            <a href="" aria-label="Инстаграм" target="blanc" rel="">
+              <img src="./img/main/instagram2.svg" alt="Инстаграм" />
+            </a>
           </li>
-          <li>
-            <a href="" aria-label="Твитер" target="blanc" rel="">Твитер</a>
+          <li class="social-link">
+            <a href="" aria-label="Твитер" target="blanc" rel="">
+              <img src="./img/main/twitter1.svg" alt="Твитер" />
+            </a>
           </li>
-          <li>
-            <a href="" aria-label="Фейсбук" target="blanc" rel="">Фейсбук</a>
+          <li class="social-link">
+            <a href="" aria-label="Фейсбук" target="blanc" rel="">
+              <img src="./img/main/facebook1.svg" alt="Фейсбук" />
+            </a>
           </li>
-          <li>
-            <a href="" aria-label="Линкедин" target="blanc" rel="">Линкедин</a>
+          <li class="social-link">
+            <a href="" aria-label="Линкедин" target="blanc" rel="">
+              <img src="./img/main/linkedin1.svg" alt="Линкедин" />
+            </a>
           </li>
         </ul>
       </div>

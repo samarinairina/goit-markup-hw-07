@@ -89,6 +89,9 @@ a {
 .container-image {
   display: flex;
 }
+.conteiner-contact:last-child {
+  margin-right: 215px;
+}
 .container-menu {
   display: flex;
   width: 294px;
@@ -154,19 +157,31 @@ h1 {
   padding-top: 200px;
 }
 .hero-button {
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
 
-  letter-spacing: 0.06em;
-  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
   margin-left: 727px;
   margin-top: 30px;
   margin-bottom: 200px;
+}
+.hero-button-text {
+  letter-spacing: 0.06em;
+  color: #ffffff;
+
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
 }
 .conteiner-me {
   display: flex;
@@ -287,21 +302,22 @@ li.team-card:last-child {
 }
 .social-link {
   display: flex;
-   margin-right: 10px;
-    width: 44px;
-    height: 44px;
-  }
-  .social-link:last-child {
-    margin-right: 0px;
-  }
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
 }
-
+.social-link:last-child {
+  margin-right: 0px;
+}
+.image-subject {
+  margin-bottom: 0px;
+}
 .image {
   width: 70px;
   height: 70px;
 
-  left: 215px;
-  top: 774px;
+  /* left: 215px;
+  top: 774px;*/
 }
 .image-me {
   display: flex;
@@ -366,7 +382,10 @@ ul li:last-child {
   display: flex;
   width: 611px;
   height: 54px;
-  margin: auto;
+  margin-top: 93px;
+  margin-bottom: 50px;
+  margin-left: 495px;
+  /*margin: auto;*/
 }
 
 .button-galery-items {
