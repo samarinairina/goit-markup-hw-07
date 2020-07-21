@@ -391,15 +391,20 @@ ul li:last-child {
   text-transform: uppercase;
   color: #ffffff;
 }
-
+.galery {
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
 .button-galery {
   display: flex;
   width: 611px;
   height: 54px;
-  margin-top: 93px;
-  margin-bottom: 50px;
-  margin-left: 495px;
-  /*margin: auto;*/
+  /* margin-top: 93px; */
+  /* margin-left: 495px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .button-galery-items {
@@ -414,7 +419,7 @@ ul li:last-child {
   background: #f5f4fa;
   border-radius: 4px;
 
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   margin-right: 8px;
 }
 
@@ -463,6 +468,8 @@ ul li:last-child {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 50px;
+  /* padding-bottom: 94px; */
   margin: auto;
   flex-wrap: wrap;
 }
