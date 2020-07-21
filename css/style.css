@@ -144,37 +144,40 @@ h1 {
   margin: 0px;
 }
 .text-hero {
-  width: 696px;
+  display: flex;
+  /* width: 696px; */
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
   text-align: center;
+  justify-content: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: #ffffff;
-  margin-left: 452px;
+  /* margin-left: 452px; */
   padding-top: 200px;
 }
 .hero-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
 
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  margin-left: 727px;
   margin-top: 30px;
   margin-bottom: 200px;
 }
+
 .hero-button-text {
+  display: flex;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
 
@@ -188,8 +191,12 @@ h1 {
   /*margin-left: 215px;
   margin-right: 215px;*/
   justify-content: center;
-  margin-top: 94px;
+  margin-top: 0px;
   margin-bottom: 0px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .headline {
   font-weight: bold;
@@ -198,6 +205,10 @@ h1 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .lead {
   font-weight: normal;
@@ -206,6 +217,7 @@ h1 {
   /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
+  margin: 0px;
 }
 .subject {
   font-weight: bold;
@@ -215,7 +227,7 @@ h1 {
   letter-spacing: 0.03em;
 
   color: #212121;
-  margin-top: 94px;
+  margin-top: 0px;
   margin-bottom: 50px;
 }
 
@@ -235,6 +247,9 @@ li.subject-item {
 }
 li.subject-item:last-child {
   margin-right: 0px;
+}
+.card-image {
+  display: block;
 }
 .item-client-width {
   display: flex;
@@ -272,7 +287,6 @@ li.subject-item:last-child {
 }
 li.team-card {
   margin-right: 30px;
-  margin-bottom: 94px;
 }
 li.team-card:last-child {
   margin-right: 0px;
@@ -309,8 +323,8 @@ li.team-card:last-child {
 .social-link:last-child {
   margin-right: 0px;
 }
-.image-subject {
-  margin-bottom: 0px;
+.image-card {
+  display: block;
 }
 .image {
   width: 70px;
@@ -341,7 +355,7 @@ ul li:last-child {
 }
 .footer {
   background: #2f303a;
-  margin-top: 94px;
+  /* margin-top: 94px; */
 }
 .footer-conteiner {
   display: flex;
@@ -446,7 +460,7 @@ ul li:last-child {
 
 .container {
   display: flex;
-  width: 1230px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin: auto;
