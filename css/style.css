@@ -18,8 +18,6 @@ html {
   font-family: Roboto;
   font-style: normal;
 }
-.header {
-}
 .container-header {
   display: flex;
   justify-content: space-between;
@@ -88,6 +86,13 @@ a {
 }
 .container-image {
   display: flex;
+  color: #212121;
+}
+.container-image:hover {
+  fill: #2196f3;
+}
+.link-contact:hover {
+  color: #2196f3;
 }
 .conteiner-contact:last-child {
   margin-right: 215px;
@@ -128,14 +133,16 @@ a {
   color: #212121;
 }
 .hero {
-  /* background: #f5f4fa; */
-  /* height: 600px; */
+  background: #686672;
+  height: 600px;
   max-width: 1600;
   background-image: linear-gradient(
-      rgba(47, 48, 58, 0.8) ; rgba(47, 48, 58, 0.8) ;
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
     ),
     url('../img/main/hero.jpg');
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1 {
@@ -240,8 +247,6 @@ h1 {
   justify-content: center;
   margin: 0px;
 }
-.subject-item {
-}
 li.subject-item {
   margin-right: 30px;
   margin-bottom: 0px;
@@ -261,7 +266,12 @@ li.subject-item:last-child {
   border-radius: 4px;
   border: 1px solid;
 }
-
+.client-svg {
+  fill: #afb1b8;
+}
+.client-svg:hover {
+  fill: #2196f3;
+}
 .caption {
   font-family: Roboto;
   font-style: normal;
@@ -316,11 +326,25 @@ li.team-card:last-child {
   margin-right: 32px;
 }
 .social-link {
-  /* display: flex; */
+  display: inline-flex;
   margin-right: 10px;
   width: 44px;
   height: 44px;
-  /* border: 50%; */
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.social-link:hover {
+  border-radius: 50%;
+  background: #2196f3;
+}
+.icon-svg:hover {
+  fill: #fff;
+}
+.icon-svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
 }
 .social-link:last-child {
   margin-right: 0px;
@@ -375,6 +399,20 @@ ul li:last-child {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-icon-svg {
+  fill: #ffffff;
+}
+.fotter-social {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+/* display: inline-flex;
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  color: #fff; */
 .footer-button {
   margin-top: 72px;
   margin-bottom: 100px;
@@ -476,7 +514,13 @@ ul li:last-child {
 .galery-items:nth-child(3n) {
   margin-right: 0px;
 }
-
+.galery-items:hover {
+  background: #ffffff;
+  /* border: 1px solid #eeeeee; */
+  box-sizing: border-box;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
 .galery-items:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
