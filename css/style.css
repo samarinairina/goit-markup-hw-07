@@ -379,6 +379,8 @@ ul li:last-child {
 }
 .footer-conteiner {
   display: flex;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .footer-logo {
@@ -390,6 +392,8 @@ ul li:last-child {
 
 .adress-footer {
   color: #ffffff;
+  /* width: 216px;
+  height: 24px; */
 }
 .contacts-footer {
   font-weight: normal;
@@ -399,6 +403,7 @@ ul li:last-child {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-icon-svg {
   fill: #ffffff;
 }
@@ -406,13 +411,7 @@ ul li:last-child {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
 }
-/* display: inline-flex;
-  margin-right: 10px;
-  width: 44px;
-  height: 44px;
-  align-items: center;
-  justify-content: center;
-  color: #fff; */
+
 .footer-button {
   margin-top: 72px;
   margin-bottom: 100px;
@@ -424,6 +423,7 @@ ul li:last-child {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin: 0px;
 }
 .galery {
   padding-top: 50px;
