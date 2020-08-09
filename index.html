@@ -24,7 +24,7 @@
           ><span class="navigation-logo-text">Web</span> Studio</a
         >
         <ul class="list container-menu">
-          <li class="list-item studio list-item-menu">
+          <li class="list-item studio colour-line-studio list-item-menu">
             <a class="link" href="./index.html" aria-label="Студия">Студия</a>
           </li>
           <li class="list-item portfolio list-item-menu">
@@ -55,6 +55,63 @@
       </ul>
     </header>
 
+
+<!-- <modal >
+
+<div  class="modal">
+       
+    <form class="modal-form">
+      <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
+
+      <div class="form-conteiner ">
+      <input class="modal-input" type="text" name="user-name" id="name"/>
+      <label class="form-text" for="name">Имя</label>
+      <svg class="icon-form" width="12" height="12">
+        <use href="./img/sprite-form.svg#icon-name"></use>
+      </svg>
+      </div>
+
+      <div class="form-conteiner">
+        <input class="modal-input" type="tel" name="tel" id="telefone" />
+        <label class="form-text" for="telefone">Телефон</label>
+        <svg class="icon-form" width="13" height="13">
+          <use href="./img/sprite-form.svg#icon-telefone"></use>
+        </svg>
+      </div>
+
+      <div class="form-conteiner">
+          <input class="modal-input" type="email" name="mail" id="mail" />
+          <label class="form-text" for="mail">Почта</label> 
+          <svg class="icon-form" width="13" height="12">
+            <use href="./img/sprite-form.svg#icon-email"></use>
+          </svg>
+        </div>
+
+        <div class="modal-coments">
+          <label></label>
+          <textarea class="modal-coments-border" name="comment" rows="6" cols="55" placeholder="Комментарий">
+                </textarea>
+        </div>
+
+        <div class="modal-politic">
+          <input type="checkbox" name="politic" value="" />
+          <label class="modal-politic-text" for="politic">Соглашаюсь с рассылкой и принимаю 
+            <a class=""
+          href=""
+          aria-label="Условия договора"
+          >Условия договора</a>
+          </label>
+        </div>
+     
+     
+      <button class="modal-button" type="submit">
+        <span class="modal-button-text">Отправить</span>
+      </button>
+
+    </form>
+  </span>
+    </modal> -->
+
     <main>
       <!--секция заказа услуги-->
       <section class="hero">
@@ -64,7 +121,6 @@
           <input type="button" class="hero-button-text"  value="Заказать услугу">
         </span>
       
-       
       </section>
 
       <!--секция преимущества компании-->
@@ -370,7 +426,7 @@
     </main>
 
     <footer class="footer footer-conteiner">
-      <div>
+      <div >
         <ul class="footer-logo">
           <li class="nav-text">
             <a class="navigation-logo" href="./index.html" lang="en"
@@ -433,6 +489,26 @@
           </li>
         </ul>
       </div>
+      
+      <div class="footer-input-email">
+      <h3 class="footer-title-link">Подпишитесь на рассылку</h3>
+
+      <div class="footer-input">
+               
+        <input class="input-color" type="email" placeholder="E-mail" />
+      
+        <div class="send">
+          <button class="button-color"><span class="button-color-text">Подписаться</span></button>
+
+        </div>
+        
+        
+      </div>
+
+      </div>
+        
     </footer>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
