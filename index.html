@@ -56,61 +56,7 @@
     </header>
 
 
-<!-- <modal >
 
-<div  class="modal">
-       
-    <form class="modal-form">
-      <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
-
-      <div class="form-conteiner ">
-      <input class="modal-input" type="text" name="user-name" id="name"/>
-      <label class="form-text" for="name">Имя</label>
-      <svg class="icon-form" width="12" height="12">
-        <use href="./img/sprite-form.svg#icon-name"></use>
-      </svg>
-      </div>
-
-      <div class="form-conteiner">
-        <input class="modal-input" type="tel" name="tel" id="telefone" />
-        <label class="form-text" for="telefone">Телефон</label>
-        <svg class="icon-form" width="13" height="13">
-          <use href="./img/sprite-form.svg#icon-telefone"></use>
-        </svg>
-      </div>
-
-      <div class="form-conteiner">
-          <input class="modal-input" type="email" name="mail" id="mail" />
-          <label class="form-text" for="mail">Почта</label> 
-          <svg class="icon-form" width="13" height="12">
-            <use href="./img/sprite-form.svg#icon-email"></use>
-          </svg>
-        </div>
-
-        <div class="modal-coments">
-          <label></label>
-          <textarea class="modal-coments-border" name="comment" rows="6" cols="55" placeholder="Комментарий">
-                </textarea>
-        </div>
-
-        <div class="modal-politic">
-          <input type="checkbox" name="politic" value="" />
-          <label class="modal-politic-text" for="politic">Соглашаюсь с рассылкой и принимаю 
-            <a class=""
-          href=""
-          aria-label="Условия договора"
-          >Условия договора</a>
-          </label>
-        </div>
-     
-     
-      <button class="modal-button" type="submit">
-        <span class="modal-button-text">Отправить</span>
-      </button>
-
-    </form>
-  </span>
-    </modal> -->
 
     <main>
       <!--секция заказа услуги-->
@@ -118,8 +64,68 @@
         
           <h1 class="text-hero">Эффективные решения </br> для  вашего бизнеса</h1>
         <span class="hero-button">
-          <input type="button" class="hero-button-text"  value="Заказать услугу">
+          <button data-modal-open type="button" class="hero-button-text">Заказать услугу</button> 
         </span>
+
+        <!--Бєкдроп и модальное окно-->
+
+
+
+        <div class="backdrop is-hidden">
+          <div class="modal">
+            <form action="get" class="contact-form" autocomplete="off">
+        
+              <button class="close-button" data-close-modal>
+                <svg class="close-button-icon">
+                  <use href="./img/sprite_form.svg#icon-close"></use>
+                </svg>
+              </button>
+        
+              <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
+        
+              <div class="input-position">
+                <input class="contact-form-input" type="text" name="user-name" placeholder=" " id="user-name">
+                <svg width="12" height="12"class="input-icon">
+                  <use href="./img/sprite_form.svg#icon-name""></use>
+                </svg>
+                <label class="contact-form-label" for="user-name">Имя</label>
+              </div>
+        
+              <div class="input-position">
+                <input class="contact-form-input" type="tel" name="user-phone" placeholder=" " id="user-phone">
+                <svg width="13" height="13"class="input-icon">
+                  <use href="./img/sprite_form.svg#icon-telefone"></use>
+                </svg>
+                <label class="contact-form-label" for="user-phone">Телефон</label>
+              </div>
+        
+              <div class="input-position">
+                <input class="contact-form-input" type="email" name="user-email" placeholder=" " id="user-email">
+                <svg width="15" height="12"class="input-icon">
+                  <use href="./img/sprite_form.svg#icon-email""></use>
+                </svg>
+                <label class="contact-form-label" for="user-email">Почта</label>
+              </div>
+        
+              <div class="input-position">
+                <textarea class="user-comment" name="user-message" id="user-comment" placeholder=" "></textarea>
+                <label class="comment-label" for="user-comment">Комментарий</label>
+              </div>
+                    
+            <div class="checkbox-box">
+              <label class="checkbox-label">
+                <input class="checkbox-input" type="checkbox" name="checkbox-name"><span>Соглашаюсь с рассылкой и
+                  принимаю <a class="check-text" href="#">Условия договора</a></span>
+                <svg width="13" height="10" class="checkbox-icon">
+                  <use href="./img/sprite_form.svg#icon-checkbox"></use>
+                </svg>
+              </label>
+            </div>
+
+            <button class="submit-button" type="submit">Отправить</button>
+            </form>
+            </div>
+            </div>
       
       </section>
 
