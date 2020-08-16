@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body class="body">
@@ -71,7 +71,7 @@
 
 
 
-        <div class="backdrop is-hidden">
+        <div data-modal class="backdrop is-hidden">
           <div class="modal">
             <form action="get" class="contact-form" autocomplete="off">
         
@@ -102,7 +102,7 @@
               <div class="input-position">
                 <input class="contact-form-input" type="email" name="user-email" placeholder=" " id="user-email">
                 <svg width="15" height="12"class="input-icon">
-                  <use href="./img/sprite_form.svg#icon-email""></use>
+                  <use href="./img/sprite_form.svg#icon-email"></use>
                 </svg>
                 <label class="contact-form-label" for="user-email">Почта</label>
               </div>
